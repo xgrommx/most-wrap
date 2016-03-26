@@ -1,6 +1,6 @@
 {
   "name": "most-wrap",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "directories": {
@@ -16,6 +16,7 @@
   },
   "scripts": {
     "build": "babel ./src --out-dir=./build",
+    "prepublish": "npm run build",
     "watch": "babel --watch=./src --out-dir=./build"
   },
   "keywords": [],
